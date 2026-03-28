@@ -53,13 +53,21 @@ Pins out:
 Using the above input the reversed out put pins will be the following:
 
 uo_out[0] : 1
+
 uo_out[1] : 1
+
 uo_out[2] : 1
+
 uo_out[3] : 1
+
 uo_out[4] : 1
+
 uo_out[5] : 0
+
 uo_out[6] : 1
+
 uo_out[7] : 1
+
 
 
  How to test
