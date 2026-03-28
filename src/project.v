@@ -27,10 +27,10 @@ module tt_um_TT_bit_reversal (
   assign uio_oe[5]  = 0;
   assign uio_oe[6]  = 0;
   assign uio_oe[7]  = 0;
-    assign uio_in[4] = 0;
-    assign uio_in[5] = 0;
-    assign uio_in[6] = 0;
-    assign uio_in[7] = 0;
+  assign uio_in[4] = 0;
+  assign uio_in[5] = 0;
+  assign uio_in[6] = 0;
+  assign uio_in[7] = 0;
   // uio_in[0]= first bit equivlant to 0 0r 1
   // uio_in[1]= first bit equivlant to 0 0r 2
   // uio_in[2]= first bit equivlant to 0 0r 4
