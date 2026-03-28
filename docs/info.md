@@ -27,7 +27,9 @@ And if you want to set to 8 bits input you must set the pins to the following:
 
 
 Pins in:
+
 used to input the 11011111 bits, so to input the 8 bits mentioned you will set the following:
+
 ui_in[0] : 1
 ui_in[1] : 1
 ui_in[2] : 0
@@ -39,6 +41,7 @@ ui_in[7] : 1
 
 
 Pins out:
+
 Using the above input the reversed out put pins will be the following:
 
 uo_out[0] : 1
@@ -54,12 +57,15 @@ uo_out[7] : 1
  How to test
 
 step one:
+
 connect a pull up/down to the bidirectional pins to provide the input settings
 
 step two:
+
 input the bits you want reversed using the input pins
 
 step three:
+
 read output reversed bits from the out put pins.
 
  External hardware
