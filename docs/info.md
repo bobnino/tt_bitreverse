@@ -26,6 +26,8 @@ And if you want to set to 8 bits input you must set the pins to the following:
  uio_in[0]=0 &  uio_in[1] =0 &  uio_in[2] =0 &  uio_in[3] =1
 
 
+Note: make sure all other  uio_in are pulled down and set to 0 ie uio_in[4]=0, uio_in[5]=0,uio_in[6]=0,uio_in[7]=0,.
+
 Pins in:
 
 used to input the 11011111 bits, so to input the 8 bits mentioned you will set the following:
