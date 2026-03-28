@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "Bit reversal"      # Project title
+  author:       "Amar Essa"      # Your name
+  discord:      "Bobnino"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "reverse 2 to 8 bits only (not 1 bit), used in bit reversal permutation "      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,7 +11,7 @@ project:
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_TT_bit_reversal"
 
   # List your project's source files here.
   # Source files must be in ./src and you must list each source file separately, one per line.
@@ -23,19 +23,19 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "fisrt bit or bit No 1"
+  ui[1]: "bit No 2"
+  ui[2]: "bit No 3"
+  ui[3]: "bit No 4"
+  ui[4]: "bit No 5"
+  ui[5]: "bit No 6"
+  ui[6]: "bit No 7"
+  ui[7]: "bit No 8"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
+  uo[0]: "The uo is the reversal of the  whole ui input bits"
+  uo[1]: "ie if the input is ui[0]=1 &  ui[1]=1 & ui[2]=0 & ui[3]=1 and the setting on the uio=  4 bits(uio[0]=0 & uio[1]=0 & uio[2]=1 & uio[3]=0) then "
+  uo[2]: " the output would be uo[0]=1 & uo[1]=0 & uo[2]=1 & uo[3]=1  thus the 1101 bits are reverased to 1011"
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
@@ -43,10 +43,10 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
+  uio[0]: "uio_in[0]=  bit equivlant to 0 0r 1 bit ie if uio[0]=1 & uio[1]=1 & uio[2]=0 & uio[3]=0 then you are setting the bit reversal to 3 bits inputs"
+  uio[1]: "uio_in[1]=  bit equivlant to 0 0r 2 bit  ie if uio[0]=0 & uio[1]=1 & uio[2]=0 & uio[3]=0 then you are setting the bit reversal to 2 bits inputs"
+  uio[2]: "uio_in[2]=  bit equivlant to 0 0r 4 bit"
+  uio[3]: "uio_in[3]=  bit equivlant to 0 0r 8 bit"
   uio[4]: ""
   uio[5]: ""
   uio[6]: ""
