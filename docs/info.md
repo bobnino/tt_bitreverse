@@ -7,11 +7,12 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
-## How it works
+ How it works
 
 This project reverses bits ie if you input 11011111 it will out put the reverse which is 11111011, the main 3 parts are:
 
 Setting pins(bidirectional pins(converted using external pull up/down circuit)):
+
 used to set the number of bits you are intending to input(1 bit not accepted and you can only use 2,3,4,5,6,7,8 bits setting),
 the uio_in[0] is equal to 0 or 1 bit,the uio_in[1] is equal to 0 or 2 bit,the uio_in[2] is equal to 0 or 4 bit,the uio_in[3] is equal to 0 or 8 bit.
 
@@ -50,7 +51,7 @@ uo_out[6] : 1
 uo_out[7] : 1
 
 
-## How to test
+ How to test
 
 step one:
 connect a pull up/down to the bidirectional pins to provide the input settings
@@ -61,7 +62,7 @@ input the bits you want reversed using the input pins
 step three:
 read output reversed bits from the out put pins.
 
-## External hardware
+ External hardware
 
 a pull up/down external cicuit must be connected to the bidirectional pins to provide the setting input and avoid floating values.
 
