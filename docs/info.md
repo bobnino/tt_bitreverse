@@ -31,13 +31,21 @@ Pins in:
 used to input the 11011111 bits, so to input the 8 bits mentioned you will set the following:
 
 ui_in[0] : 1
+
 ui_in[1] : 1
+
 ui_in[2] : 0
+
 ui_in[3] : 1
+
 ui_in[4] : 1
+
 ui_in[5] : 1
+
 ui_in[6] : 1
+
 ui_in[7] : 1
+
 
 
 Pins out:
