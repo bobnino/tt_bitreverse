@@ -25,7 +25,7 @@ async def test_project(dut):
     #dut.ui_in[5].value = 0
     #dut.ui_in[6].value = 0
     #dut.ui_in[7].value = 0
-    dut.uio_in[0].value = 0
+    dut.uio_in.value = 0
     #dut.uio_in[1].value = 1
     #dut.uio_in[2].value = 0
     #dut.uio_in[3].value = 0
