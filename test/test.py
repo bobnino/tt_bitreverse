@@ -17,7 +17,7 @@ async def test_project(dut):
     # Reset
    # dut._log.info("Reset")
    # dut.ena.value = 1
-    dut.ui_in.value = {0,1,0,0,0,0,0,0}
+    dut.ui_in.value = [0,1,0,0,0,0,0,0]
     #dut.ui_in[1].value = 1
     #dut.ui_in[2].value = 0
     #dut.ui_in[3].value = 0
@@ -25,7 +25,7 @@ async def test_project(dut):
     #dut.ui_in[5].value = 0
     #dut.ui_in[6].value = 0
     #dut.ui_in[7].value = 0
-    dut.uio_in[0].value = {0,1,0,0,0,0,0,0}
+    dut.uio_in[0].value = [0,1,0,0,0,0,0,0]
     #dut.uio_in[1].value = 1
     #dut.uio_in[2].value = 0
     #dut.uio_in[3].value = 0
@@ -48,7 +48,7 @@ async def test_project(dut):
 
     # The following assersion is just an example of how to check the output values.
     # Change it to match the actual expected output of your module:
-    assert dut.uo_out.value == {1,0,0,0,0,0,0,0}
+    assert dut.uo_out.value == [1,0,0,0,0,0,0,0]
  #   assert dut.uo_out[1].value == 0
     # Keep testing the module by changing the input values, waiting for
     # one or more clock cycles, and asserting the expected output values.
